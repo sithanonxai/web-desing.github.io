@@ -1,0 +1,81 @@
+/* google fonts*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    position: absolute;
+   top: 50px;
+   left: 20;
+   display: flex;
+   width: 100%;
+   justify-content: right;
+   padding: 20px;
+}
+.nav-links {
+    display: flex;
+    list-style:none ;
+   
+}
+.nav-links li a{
+
+    margin: 0 50px;
+    text-decoration: none;
+    color:whitesmoke; 
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+    
+}
+.nav-links li a:hover{
+    
+    border-bottom: 2px solid red;
+    padding-bottom: 0px;
+   
+    
+}
+
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:  url('./dog/dogp3.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    padding-top: 2px;
+    
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align:center;
+    
+}
+.header-content h1{
+    
+    padding: 40pxS;
+}
+.line{
+    width: 10px;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 20px;
+    
+}
+
+    
+
+    
+
